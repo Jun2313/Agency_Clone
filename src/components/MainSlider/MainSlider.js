@@ -22,22 +22,22 @@ function MainSlider() {
 
   return (
     <div className='Slide_container' style={{ overflowX: 'hidden' }}>
-      <div style={{ position: 'absolute', top: 0, width: '100%' }}>
+      <div style={{ position: 'relative', top: 0, width: '100%' }}>
         <Slider {...settings}>
           <div>
-            <img src="/slide_01.jpg" alt="Slide 1" className="slide-image" />
+            <img src="/img/slide/slide_01.jpg" alt="Slide 1" className="slide-image" />
           </div>
           <div>
-            <img src="/slide_02.jpg" alt="Slide 2" className="slide-image" />
+            <img src="/img/slide/slide_02.jpg" alt="Slide 2" className="slide-image" />
           </div>
           <div>
-            <img src="/slide_03.jpg" alt="Slide 3" className="slide-image" />
+            <img src="/img/slide/slide_03.jpg" alt="Slide 3" className="slide-image" />
           </div>
           <div>
-            <img src="/slide_04.jpg" alt="Slide 4" className="slide-image" />
+            <img src="/img/slide/slide_04.jpg" alt="Slide 4" className="slide-image" />
           </div>
           <div>
-            <img src="/slide_05.jpg" alt="Slide 5" className="slide-image" />
+            <img src="/img/slide/slide_05.jpg" alt="Slide 5" className="slide-image" />
           </div>
         </Slider>
         <div style={{ position: 'absolute', left: '10px', bottom: '10px', background: 'rgba(0, 0, 0, 0.5)', padding: '5px', borderRadius: '5px', color: '#fff' }}>

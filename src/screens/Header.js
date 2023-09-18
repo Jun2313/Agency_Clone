@@ -27,14 +27,11 @@ function Header() {
     navbarClasses.push('scrolled');
   }
   return(
-
-    
-    <div ref={headerRef}>
-      <div className={navbarClasses.join(' ')}>
-        <div style={{zIndex: '2'}}>
-          <h1>
-          <img src="./logo_img.svg"></img>
-          </h1>
+    <div ref={headerRef} className={navbarClasses.join(' ')}>
+      <div style={{zIndex: '2'}}>
+        <h1>
+          <img src="./logo_img.svg" alt="Logo" />
+        </h1>
       </div>
       <ul className="nav">
         <li>눈성형</li>
@@ -53,8 +50,6 @@ function Header() {
         <li>회원가입</li>
       </ul>
       </div>
-
-    </div>
   )
 }
 

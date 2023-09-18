@@ -1,11 +1,15 @@
-import MainSlider from "../components/Slider";
-import Select from "../components/Select";
+import MainSlider from "../components/MainSlider/MainSlider";
+import SelectMain from "../components/Select/SelectMain";
 function Body (){
 
   return(
     <div>
-    <MainSlider />
-    <Select />
+      <div>
+        <MainSlider />
+      </div>
+      <div style={{ margin: '20px 0'}}>
+        <SelectMain />
+      </div>
     </div>
   )
 }

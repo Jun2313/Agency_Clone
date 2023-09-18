@@ -5,10 +5,15 @@
 
 /* Header */
 .header {
+  position: fixed;
+  top: 0;
+  width: 100%;
   padding: 2.5rem;
+  background-color: transparent;
   display: flex;
   align-items: center;
   transition: background-color 0.5s ease, box-shadow 0.5s ease;
+  z-index: 3;
 }
 .header h1 {
   font-size: 24px;
@@ -39,13 +44,16 @@
 /* slide */
 
 .Slide_container {
-  width: 1801px;
   overflow: hidden;
+  /* height: 923px; */
 }
-slide-image {
+.slide-image {
   max-width: 100%;
   max-height: 1080px;
   width: 100%;
   height: auto;
   object-fit: cover;
+  overflow: hidden;
 }
+
+/* Select */
