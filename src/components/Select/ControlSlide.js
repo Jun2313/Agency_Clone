@@ -14,11 +14,12 @@ function ControlSlide() {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
+    arrow: false,
     customPaging: () => <div style={{ outline: "none" }} />,
   };
 
   return (
-    <div className="ControlSlide_bg" style={{ display: 'flex', justifyContent: 'space-between' }}>
+    <div className="ControlSlide_bg" style={{ display: 'flex', justifyContent: 'space-between',overflow: 'hidden'}}>
       <SelectHeader sliderRef={sliderRef} />
       <div style={{ width: '55%', position: 'relative' }}>
         <Slider ref={sliderRef} {...settings}>

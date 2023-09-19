@@ -1,6 +1,7 @@
 import MainSlider from "../components/MainSlider/MainSlider";
 import SelectMain from "../components/Select/SelectMain";
 import CounselMain from "../components/Counsel/CounselMain"
+import MediaMain from "../components/Media/MediaMain"
 function Body (){
 
   return(
@@ -13,6 +14,9 @@ function Body (){
       </div>
       <div style={{ padding: '140px 0', height: '760px', backgroundColor: '#faf3ef'}}>
         <CounselMain />
+      </div>
+      <div>
+        <MediaMain />
       </div>
     </div>
   )
