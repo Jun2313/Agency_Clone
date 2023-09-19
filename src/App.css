@@ -45,7 +45,7 @@
 
 .Slide_container {
   overflow: hidden;
-  /* height: 923px; */
+  height: 816px;
 }
 .slide-image {
   max-width: 100%;
@@ -57,3 +57,26 @@
 }
 
 /* Select */
+
+.SelectMainText :first-child {
+  font-size: 26px;
+  padding: 10px 0;
+}
+.SelectMainText :last-child {
+  font-size: 20px;
+}
+
+.SelectHeader_bg::before {
+  content: "";
+  position: absolute;
+  width: 400px;
+  top: 0%;
+  left: 15%;
+  bottom: -42%;
+  background-Image: url(../public/img/select/select_bg.png);
+  background-Size: contain;
+  background-Position: inherit;
+  background-Repeat: no-repeat;
+  opacity: 0.2;
+  z-index: -1;
+}
